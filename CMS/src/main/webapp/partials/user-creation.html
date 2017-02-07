@@ -1,0 +1,25 @@
+<div class="container">
+    <h1>Create a new user</h1>
+
+    <form novalidate="novalidate" class="form-horizontal">
+        <div class="control-group">
+            <label class="control-label" for="inputFirstName">Project name:</label>
+
+            <div class="controls">
+                <input type="text" id="inputProjectName" ng-model="project.name" placeholder="Project name"/>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="inputLastName">Technology</label>
+
+            <div class="controls">
+                <input type="text" id="inputTechnology" ng-model="user.technology" placeholder="Technology"/>
+            </div>
+        </div>
+        <div class="control-group">
+            <div class="controls">
+                <a ng-click="createNewProject()" class="btn btn-small btn-primary">create new project</a>
+            </div>
+        </div>
+    </form>
+</div>
