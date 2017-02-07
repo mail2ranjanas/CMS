@@ -4,6 +4,8 @@
 
 The CMS is web application to manage the Dialog Consultants 
 
-Create Branch from Master
 
+Created the branch for the front end developments.
+
+Create Branch from Master
 
